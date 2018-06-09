@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^news/([^/]*)$ /oneNews.php?newsID=$1 [L]
